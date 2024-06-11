@@ -22,6 +22,10 @@ body{
 }
 .btn:hover{
     box-shadow: 0px 0px 10px aliceblue;
+    
+}
+.btn:active{
+    background-color: rgb(3, 172, 172);
 }
 
 .joke{
@@ -30,6 +34,10 @@ body{
     align-items: center;
     justify-content: center;
     row-gap: 10px;
-    border: 1px solid whitesmoke;
-    padding: 10px 15px;
+    border: 3px solid black;
+    padding: 40px 50px;
+    font-size: larger;
+    border-radius: 10px;
+    box-shadow: 0px 3px 30px black;
+
 }
