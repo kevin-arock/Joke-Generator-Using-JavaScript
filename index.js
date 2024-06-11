@@ -10,7 +10,7 @@ function display(data){
     let setup = document.querySelector('.setupp');
     let punch = document.querySelector('.punchline');
     setup.innerHTML = `${data.setup}`;
-    punch.innerHTML = `${data.punchline}`;
+    punch.innerHTML = `- ${data.punchline}`;
 
 }
 
